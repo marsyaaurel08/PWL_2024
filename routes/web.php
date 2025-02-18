@@ -28,3 +28,7 @@ Route::get('/world', function () {
 Route::get('/', function () {
     return 'Selamat Datang';
 });
+
+Route::get('/about', function () {
+    return 'Nama : Marsya Aurelia Sefira <br> NIM : 2341720011';
+});
