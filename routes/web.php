@@ -25,6 +25,6 @@ Route::get('/world', function () {
     return 'World';
 });
 
-Route::get('/selamat', function () {
+Route::get('/', function () {
     return 'Selamat Datang';
 });
